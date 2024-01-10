@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 24, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 238.846 s <<< FAILURE! - in TestSuite
+checkingOutValidProduct(com.tutorialsninja.tests.CompleteCheckoutPageTest)  Time elapsed: 3.874 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.tutorialsninja.tests.CompleteCheckoutPageTest.checkingOutValidProduct(CompleteCheckoutPageTest.java:35)
+
+veryfingRegisterWithMismatchPassword(com.tutorialsninja.tests.RegisterPageTest)  Time elapsed: 0.48 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at com.tutorialsninja.tests.RegisterPageTest.veryfingRegisterWithMismatchPassword(RegisterPageTest.java:138)
+
